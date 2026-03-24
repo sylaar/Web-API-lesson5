@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ```.env
 SUPERJOB_API_KEY=<ВАШ_КЛЮЧ_SUPEJOB.ru>
 ```
-Запустить скрипт
+Запустить скрипт 
 
 ```bash
 python main.py
