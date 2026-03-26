@@ -65,4 +65,5 @@ HeadHunter
 SuperJob
 Требуется ключ, который можно получить на api.superjob.ru.
 
-## Пример вывода
+## Пример запуска
+<img width="605" height="240" alt="Снимок экрана 2026-03-24 в 21 48 32" src="https://github.com/user-attachments/assets/3ec11b27-7319-4f78-bb5a-bbb0a9aa7357" />
