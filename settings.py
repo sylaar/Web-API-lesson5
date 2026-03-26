@@ -4,14 +4,15 @@ SUPERJOB_MOSCOW_ID = 4
 CATALOGUE_PROGRAMMING = 48
 HH_MOSCOW_ID = 1
 EXCLUDED_TEXT = 'CSS,SQL,HTML'
-LANGUAGES = ['JavaScript',
-             'Java',
-             'Python',
-             'Ruby',
-             'PHP',
-             'C++',
-             'C#',
-             'C',
-             'Go',
-             'Scala',
-             ]
+LANGUAGES = [
+    'JavaScript',
+    'Java',
+    'Python',
+    'Ruby',
+    'PHP',
+    'C++',
+    'C#',
+    'C',
+    'Go',
+    'Scala',
+]
