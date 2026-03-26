@@ -28,6 +28,7 @@ def get_all_hh_vacancies(
 ) -> tuple[list, int]:
     '''Возвращает все вакансии'''
     number_of_pages_without_timeout = 10
+    timeout_seconds = 5
     decoded_response = get_hh_vacancies(
         text=text,
         area=area,
@@ -45,5 +46,5 @@ def get_all_hh_vacancies(
         )
         vacancies.extend(response_page.get('items'))
         if page % number_of_pages_without_timeout == 0:
-            sleep(5)
+            sleep(timeout_seconds)
     return vacancies, vacancies_found
